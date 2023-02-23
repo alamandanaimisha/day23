@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main(){
+    float i,n,s;
+    scanf("%f",&n);
+    for(i=1;i<=n;i++)
+    s+=1/i;
+    printf("%f",s);
+}
